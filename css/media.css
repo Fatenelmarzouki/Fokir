@@ -1,0 +1,391 @@
+@media (min-width: 640px) {
+    .container {
+        width: 90%;
+    }
+
+    .inner-container {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .inner-container {
+        width: 95%;
+    }
+
+    .x {
+        padding: 70px 0 50px;
+    }
+
+    /* header */
+    .header .navbar ul {
+        display: block;
+    }
+
+    .navbar .toggle {
+        display: none;
+    }
+
+    .logo {
+        width: 15%;
+        padding: 3px 0px;
+    }
+
+    .navbar {
+        width: 68%;
+        padding: 17px 2px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 0 4px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .navbar li a {
+        line-height: 20px;
+        font-style: normal;
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: 0.5px;
+        padding: 20px 0;
+    }
+
+    .navbar li a:hover {
+        color: rgb(255, 48, 91);
+    }
+
+    .navbar li .color {
+        color: #ff305b;
+    }
+
+    .content .header-content h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .content .header-content h1 {
+        font-size: 70px;
+        line-height: 77px;
+    }
+
+    .content .header-content h4 {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    /* profile */
+    .profile {
+        padding: 70px 0 70px;
+    }
+
+    .profile-image {
+        width: 46%;
+    }
+
+    .profile-content .profile-data ul li {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 15px;
+        float: left;
+        width: 50%;
+    }
+
+    .profile-content .profile-data ul li span {
+        line-height: 14px;
+    }
+
+    .profile .profile-content {
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    .profile-data ul {
+        overflow: hidden;
+    }
+
+    .profile-data ul li:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    /* our services */
+    .service {
+        padding: 70px 0 24px;
+    }
+
+    .services {
+        width: 50%;
+    }
+
+    .head-center {
+        font-size: 40px;
+    }
+
+    .services h3 {
+        font-size: 24px;
+    }
+
+    /* our portfolio */
+    .our-portfolio .portfolio .item {
+        width: 50%;
+    }
+
+    /* counter */
+    .counter .counter-content {
+        width: 25%;
+    }
+
+    /* feedback */
+    .shape {
+        width: 100%;
+        padding: 28px;
+    }
+
+    .shape .shape-image {
+        width: 20%;
+        padding: 8px;
+    }
+
+    .shape .shape-image::after {
+        top: -41px;
+        left: -28px;
+    }
+
+    .shape .shape-content {
+        width: 70%;
+    }
+
+    /* our blog */
+    .blog-content {
+        padding: 12px;
+    }
+
+    .our-blog .blog .blog-items {
+        width: 33.33333333%;
+        padding: 7px;
+    }
+
+    .blog-items .blog-image iframe {
+        height: 130px;
+    }
+
+    .blog-content p {
+        font-size: 16px;
+    }
+
+    .blog-content h3 {
+        font-size: 19px;
+        line-height: 21px;
+    }
+
+    .blog-content h4 {
+        font-size: 16px;
+    }
+
+    /* Contact us */
+    .contain form .contain-ne div {
+        padding: 10px 2.5px;
+        width: calc(50% - 10px);
+        float: left;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .x {
+        padding: 70px 0 50px;
+    }
+
+    /* header */
+    .logo {
+        width: 35%;
+        padding: 3px 20px;
+    }
+
+    .navbar {
+        width: 55%;
+        padding: 17px 10px;
+    }
+
+    .navbar li {
+        padding: 0 6px;
+    }
+
+    /* profile */
+    .profile {
+        padding: 70px 0 70px;
+    }
+
+    .box {
+        border-radius: 5px;
+        box-shadow: 0 0 0 8px #555555 inset;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 61px;
+        width: 90%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .profile-image {
+        width: 35%;
+    }
+
+    .profile-image .image {
+        width: 91%;
+        left: 75px;
+        top: 20px;
+    }
+
+    .profile .profile-content {
+        width: 52%;
+    }
+
+    /* our services */
+    .services .inner {
+        padding: 17px 3px;
+    }
+
+    .services {
+        width: 25%;
+    }
+
+    /* our portfolio */
+    .our-portfolio .portfolio .item {
+        width: 33.33333333%;
+    }
+
+    /* feedback */
+    .shape {
+        width: 75%;
+    }
+
+    .shape .shape-image {
+        width: 20%;
+    }
+
+    .shape .shape-content {
+        width: 79%;
+    }
+
+    /* our blog */
+    .blog-items .blog-image iframe {
+        height: 164px;
+    }
+
+    /* Contact us */
+    .contact .contain {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .x {
+        padding: 100px 0px;
+    }
+
+    /* header */
+    .logo {
+        width: 25%;
+        padding: 3px 46px;
+    }
+
+    .navbar {
+        width: 45%;
+        padding-top: 4px;
+    }
+
+    .navbar li {
+        padding: 10px 1px;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        padding: 0px 4px;
+    }
+
+    /* profile */
+    .profile .profile-content {
+        width: 54%;
+        padding: 8px;
+    }
+
+    .box {
+        top: 0px;
+        left: 111px;
+        width: 80%;
+    }
+
+    .profile-image {
+        width: 35%;
+    }
+
+    .profile-image .image {
+        width: 83%;
+        left: 96px;
+        top: 20px;
+    }
+
+    .profile-content .profile-data ul li {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .btn1,
+    .btn2 {
+        margin-right: 10px;
+    }
+
+    /* service */
+    .service {
+        padding: 100px 0 54px;
+    }
+
+    .services .inner {
+        padding: 40px 15px;
+    }
+
+    /* counter */
+    .counter .counter-content {
+        padding: 0px;
+    }
+
+    /* feedback */
+
+    .shape {
+        width: 60%;
+        padding: 40px;
+    }
+
+    .shape .shape-image {
+        width: 100%;
+    }
+
+    .shape .shape-image::after {
+        border-width: 89px;
+        top: -51px;
+        left: -40px;
+    }
+
+    .shape .shape-content {
+        width: 100%;
+    }
+
+    /* blog */
+    .blog-items .blog-image iframe {
+        height: 220px;
+    }
+
+    /* contact us */
+    .contact .contain {
+        width: 65%;
+    }
+}
