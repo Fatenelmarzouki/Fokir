@@ -361,22 +361,26 @@
     /* feedback */
 
     .shape {
-        width: 60%;
-        padding: 40px;
+        width: 65%;
+        padding: 20px;
     }
 
     .shape .shape-image {
-        width: 100%;
+        width: 35%;
     }
-
+.shape .shape-image img{
+max-width: 55%;
+    top: -3px;
+    left: -18px;
+}
     .shape .shape-image::after {
-        border-width: 89px;
-        top: -51px;
-        left: -40px;
+        border-width: 105px;
+                top: -33px;
+                    left: -19px;
     }
 
     .shape .shape-content {
-        width: 100%;
+        width: 63%;
     }
 
     /* blog */
